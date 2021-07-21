@@ -117,7 +117,7 @@ As per the documentation you must define and include the following enviornment v
 | FB_REFERENCE_IMAGE_DIR | \$(SOURCE_ROOT)/$(PROJECT_NAME)Tests/ReferenceImages |
 | IMAGE_DIFF_DIR | \$(SOURCE_ROOT)/$(PROJECT_NAME)Tests/FailureDiffs |
 
-![Adding iOSSnapshottesting environment variables to the test scheme](screenshot-debug-schema.png)
+![Adding iOSSnapshottesting environment variables to the test scheme](ReadmeImages/screenshot-debug-schema.png)
 
 Next create a test that extends from `FBSnapshotTestCase` instead of  `XCTest`, FBSnapshotTestCase requires that you call the `super.setup()` as per OOP principles but this means that you must use the `overrided func setup` instead of the default `override func setupWithErrors -> throws`. In the setup set recordeMode = true to capture your first set of reference images. Within your test used the `FBSnapshotVerifyView` for assertion.  
 
@@ -133,6 +133,7 @@ Your team can also introduce the risked of quickly passing test that have begun 
 
 A CI solution that monitors changes in your snapshot tests, it then notifys the team when there has been a change and optionally logs a JIRA task. Pricing starts at $95 a month but there is a Open source version.
 [screenshotbot (Commercial)](https://screenshotbot.io)
+
 [screeshotbot (Open Source)](https://github.com/screenshotbot/screenshotbot-oss)
 
 ## Android Library
