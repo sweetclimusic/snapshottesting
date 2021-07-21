@@ -5,6 +5,8 @@
 > 
 ## SnapshotTesting
 
+> Status: Active [Latest release 1.9.0, October 27th, 2021](https://github.com/pointfreeco/swift-snapshot-testing/releases/tag/1.9.0)
+
 SnapshotTesting allows the addition of snapshotting text and other types not limited to just images. To snapshot  test a image first import the library to your test case target.
 
 ### Dependecies:
@@ -91,10 +93,15 @@ If we remove isRecording,true for the accessibility sizes we risk introducing fa
 
 ## iOSSnapshotTestCase
 
+> Status: Stale [Latest release 6.2.0, October 12th, 2019](https://github.com/uber/ios-snapshot-test-case/releases/tag/6.2.0)
+
 ### Background:
 [iOSSnapshotTestCase](https://github.com/uber/ios-snapshot-test-case/)
 
-Originally developed by Facebook, iOS Snapshot Test Case allowed assertion of your UI during  XCTUITest by comparing a screenshot of your app. The ownership of the repo then passed to Uber however it is no longer maintained by Uber. One of the top contributers [@alanzeino](https://github.com/alanzeino) who help facillate Uber taking ownership of iOS Snapshot Test Case from facebook. Ironically he's no longer at Uber and works for FB has pointed many users to the SnapshotTesting repo. Additionally there are further community changes needed to allow iOS Snapshot Test Case to run in Xcode 12, `@alanzeino` has stated he is attempting to gain ownership to the repo. A working fork of iOS Snapshot Test Case can be found on his github [iOS Snapshot Test Case - active fork](https://github.com/alanzeino/ios-snapshot-test-case).
+Originally developed by Facebook, iOS Snapshot Test Case allowed assertion of your UI during  XCTUITest by comparing a screenshot of your app. The ownership of the repo then passed to Uber, however it is no longer being activly developed and maintained by Uber. There are several PRs that have been accepted but not merged. One of the top contributers [@alanzeino](https://github.com/alanzeino) who help facillate Uber taking ownership of iOS Snapshot Test Case from facebook, (Ironically he's no longer at Uber and now works for FB) is redirecting many users to the SnapshotTesting repo. 
+
+I have a low confidence in this library from the official source due to it's stalled development, lack of engagment towards the community, either by not merging accepted PRs or answering issues on the repo itself.  However `@alanzeino` has stated he is attempting to gain ownership to the repo [March 18,2021 request of repo ownership](https://github.com/uber/ios-snapshot-test-case/pull/126#issuecomment-801631166), and a working fork of his iOS Snapshot Test Case can be found on his github [iOS Snapshot Test Case - active fork](https://github.com/alanzeino/ios-snapshot-test-case).
+
 
 ### Installing:
 Implementing snapshot testing with iOSSnapshotTestCase. Add the dependency `https://github.com/alanzeino/ios-snapshot-test-case.git` to SPM via xcode or directly in the Packages.swift file.
@@ -130,12 +137,14 @@ Your team can also introduce the risked of quickly passing test that have begun 
 
 
 ## Screeshotbot
-
+> Status: Active [Latest commit 650b8ac, July 21th, 2021](https://github.com/screenshotbot/screenshotbot-oss/commit/650b8ac12a386cecd153fb8e94056eb59f120e25)
+https://github.com/screenshotbot/screenshotbot-oss/commit/650b8ac12a386cecd153fb8e94056eb59f120e25
 A CI solution that monitors changes in your snapshot tests, it then notifys the team when there has been a change and optionally logs a JIRA task. Pricing starts at $95 a month but there is a Open source version.
 [screenshotbot (Commercial)](https://screenshotbot.io)
 
 [screeshotbot (Open Source)](https://github.com/screenshotbot/screenshotbot-oss)
 
 ## Android Library
+> Status: Active [Latest commit 0.14.0, April 26th, 2021](https://github.com/facebook/screenshot-tests-for-android/releases/tag/0.14.0)
 Facebook version of iOSSnapshot testing, still mained.
 [Screenshot tests for android](https://github.com/facebook/screenshot-tests-for-android)
