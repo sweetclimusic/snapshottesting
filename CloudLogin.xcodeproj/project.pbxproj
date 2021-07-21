@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5725CED0266E5B8900F7B5CB /* VisualEffects in Frameworks */ = {isa = PBXBuildFile; productRef = 5725CECF266E5B8900F7B5CB /* VisualEffects */; };
+		577C5349266A51E80094E87F /* CloudLoginApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 577C5348266A51E80094E87F /* CloudLoginApp.swift */; };
+		577C534D266A51F00094E87F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 577C534C266A51F00094E87F /* Assets.xcassets */; };
+		577C5350266A51F00094E87F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 577C534F266A51F00094E87F /* Preview Assets.xcassets */; };
+		57CBE57D26A708F0004284BD /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 57CBE57C26A708F0004284BD /* SnapshotTesting */; };
+		57CBE57F26A71D0A004284BD /* SignUpScreeniOSSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CBE57E26A71D0A004284BD /* SignUpScreeniOSSnapshotTests.swift */; };
+		57CBE58226A725B3004284BD /* FBSnapshotTestCase in Frameworks */ = {isa = PBXBuildFile; productRef = 57CBE58126A725B3004284BD /* FBSnapshotTestCase */; };
+		57CBE58326A725B3004284BD /* FBSnapshotTestCase in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 57CBE58126A725B3004284BD /* FBSnapshotTestCase */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		57CBE58626A7264F004284BD /* FBSnapshotTestCase in Frameworks */ = {isa = PBXBuildFile; productRef = 57CBE58526A7264F004284BD /* FBSnapshotTestCase */; };
+		57CBE58726A7264F004284BD /* FBSnapshotTestCase in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 57CBE58526A7264F004284BD /* FBSnapshotTestCase */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		57ED03652677AB5A00130A0A /* FlatLoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ED03642677AB5A00130A0A /* FlatLoginViewModel.swift */; };
+		57ED03672678B19900130A0A /* WhiteLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ED03662678B19900130A0A /* WhiteLineView.swift */; };
+		57ED03692678FAA400130A0A /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ED03682678FAA400130A0A /* Helpers.swift */; };
+		57F410A126A019B90065B7B8 /* SignupScreenViewSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F410A026A019B90065B7B8 /* SignupScreenViewSnapshotTests.swift */; };
+		57F410AC26A07AE80065B7B8 /* UnitTestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F410AB26A07AE80065B7B8 /* UnitTestHelper.swift */; };
+		57F410AE26A5C8A90065B7B8 /* AccountContextSwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F410AD26A5C8A90065B7B8 /* AccountContextSwitchView.swift */; };
+		57F410B026A5D2A70065B7B8 /* AccountContextSwitchViewSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F410AF26A5D2A70065B7B8 /* AccountContextSwitchViewSnapshotTests.swift */; };
+		57FC4A5E26711761005F2588 /* IconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FC4A5D26711761005F2588 /* IconView.swift */; };
+		BC8462B8FA3E011B7049E00E /* AppStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8460CF092F78A89BEB4CAA /* AppStyle.swift */; };
+		BC8463D9596F98389CBF7E89 /* SignupScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC846DC4C23A78BA8C9EB95D /* SignupScreenView.swift */; };
+		BC84642BA270CD7D4534E457 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC846D984B847EDF9B01896F /* CardView.swift */; };
+		BC8467B14F961303CFF3C05F /* PauseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC846DC3FE0A883030D0672C /* PauseView.swift */; };
+		BC846C0235B75DC7EDE0B7DD /* GradientButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC84601DB4B2CC788327DD61 /* GradientButtonView.swift */; };
+		BC846CF374FC82CB70B76F82 /* FlatLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC8467EF5FC370CBD7AF04CC /* FlatLoginView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57F410A326A019B90065B7B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 577C533D266A51E80094E87F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 577C5344266A51E80094E87F;
+			remoteInfo = CloudLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		57CBE58426A725B3004284BD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				57CBE58326A725B3004284BD /* FBSnapshotTestCase in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F70214269C84310063C55A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				57CBE58726A7264F004284BD /* FBSnapshotTestCase in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5725CED12670F42D00F7B5CB /* CloudLogin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CloudLogin.entitlements; sourceTree = "<group>"; };
+		577C5345266A51E80094E87F /* CloudLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		577C5348266A51E80094E87F /* CloudLoginApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudLoginApp.swift; sourceTree = "<group>"; };
+		577C534C266A51F00094E87F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		577C534F266A51F00094E87F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		577C5351266A51F00094E87F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57CBE57E26A71D0A004284BD /* SignUpScreeniOSSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreeniOSSnapshotTests.swift; sourceTree = "<group>"; };
+		57EC97FE2695F3310039E891 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		57ED03642677AB5A00130A0A /* FlatLoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatLoginViewModel.swift; sourceTree = "<group>"; };
+		57ED03662678B19900130A0A /* WhiteLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteLineView.swift; sourceTree = "<group>"; };
+		57ED03682678FAA400130A0A /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		57F41089269F4C180065B7B8 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/iOSSupport/System/Library/Frameworks/SwiftUI.framework; sourceTree = DEVELOPER_DIR; };
+		57F4109E26A019B90065B7B8 /* CloudLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57F410A026A019B90065B7B8 /* SignupScreenViewSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupScreenViewSnapshotTests.swift; sourceTree = "<group>"; };
+		57F410A226A019B90065B7B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57F410AB26A07AE80065B7B8 /* UnitTestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestHelper.swift; sourceTree = "<group>"; };
+		57F410AD26A5C8A90065B7B8 /* AccountContextSwitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountContextSwitchView.swift; sourceTree = "<group>"; };
+		57F410AF26A5D2A70065B7B8 /* AccountContextSwitchViewSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountContextSwitchViewSnapshotTests.swift; sourceTree = "<group>"; };
+		57FC4A5D26711761005F2588 /* IconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconView.swift; sourceTree = "<group>"; };
+		BC84601DB4B2CC788327DD61 /* GradientButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientButtonView.swift; sourceTree = "<group>"; };
+		BC8460CF092F78A89BEB4CAA /* AppStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStyle.swift; sourceTree = "<group>"; };
+		BC8467EF5FC370CBD7AF04CC /* FlatLoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlatLoginView.swift; sourceTree = "<group>"; };
+		BC846D984B847EDF9B01896F /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		BC846DC3FE0A883030D0672C /* PauseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PauseView.swift; sourceTree = "<group>"; };
+		BC846DC4C23A78BA8C9EB95D /* SignupScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupScreenView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		577C5342266A51E80094E87F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CBE58626A7264F004284BD /* FBSnapshotTestCase in Frameworks */,
+				5725CED0266E5B8900F7B5CB /* VisualEffects in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F4109B26A019B90065B7B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CBE58226A725B3004284BD /* FBSnapshotTestCase in Frameworks */,
+				57CBE57D26A708F0004284BD /* SnapshotTesting in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		577C533C266A51E80094E87F = {
+			isa = PBXGroup;
+			children = (
+				57EC97FE2695F3310039E891 /* README.md */,
+				577C5347266A51E80094E87F /* CloudLogin */,
+				57F4109F26A019B90065B7B8 /* CloudLoginTests */,
+				577C5346266A51E80094E87F /* Products */,
+				57F41088269F4C180065B7B8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		577C5346266A51E80094E87F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				577C5345266A51E80094E87F /* CloudLogin.app */,
+				57F4109E26A019B90065B7B8 /* CloudLoginTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		577C5347266A51E80094E87F /* CloudLogin */ = {
+			isa = PBXGroup;
+			children = (
+				5725CED12670F42D00F7B5CB /* CloudLogin.entitlements */,
+				577C5348266A51E80094E87F /* CloudLoginApp.swift */,
+				577C534C266A51F00094E87F /* Assets.xcassets */,
+				577C5351266A51F00094E87F /* Info.plist */,
+				577C534E266A51F00094E87F /* Preview Content */,
+				BC846F0E588BAB3DAC9BF65B /* Login */,
+				BC8468D9C3E04AE2677DF020 /* Components */,
+				BC84658DD052FC41E35170D5 /* Utilities */,
+			);
+			path = CloudLogin;
+			sourceTree = "<group>";
+		};
+		577C534E266A51F00094E87F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				577C534F266A51F00094E87F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		57F41088269F4C180065B7B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57F41089269F4C180065B7B8 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57F4109F26A019B90065B7B8 /* CloudLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				57F410A026A019B90065B7B8 /* SignupScreenViewSnapshotTests.swift */,
+				57F410A226A019B90065B7B8 /* Info.plist */,
+				57F410AB26A07AE80065B7B8 /* UnitTestHelper.swift */,
+				57F410AF26A5D2A70065B7B8 /* AccountContextSwitchViewSnapshotTests.swift */,
+				57CBE57E26A71D0A004284BD /* SignUpScreeniOSSnapshotTests.swift */,
+			);
+			path = CloudLoginTests;
+			sourceTree = "<group>";
+		};
+		BC84658DD052FC41E35170D5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BC8460CF092F78A89BEB4CAA /* AppStyle.swift */,
+				57ED03682678FAA400130A0A /* Helpers.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		BC8468D9C3E04AE2677DF020 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				BC846D984B847EDF9B01896F /* CardView.swift */,
+				BC846DC3FE0A883030D0672C /* PauseView.swift */,
+				BC84601DB4B2CC788327DD61 /* GradientButtonView.swift */,
+				57FC4A5D26711761005F2588 /* IconView.swift */,
+				57ED03662678B19900130A0A /* WhiteLineView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		BC846F0E588BAB3DAC9BF65B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				BC8467EF5FC370CBD7AF04CC /* FlatLoginView.swift */,
+				BC846DC4C23A78BA8C9EB95D /* SignupScreenView.swift */,
+				57ED03642677AB5A00130A0A /* FlatLoginViewModel.swift */,
+				57F410AD26A5C8A90065B7B8 /* AccountContextSwitchView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		577C5344266A51E80094E87F /* CloudLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 577C536A266A51F00094E87F /* Build configuration list for PBXNativeTarget "CloudLogin" */;
+			buildPhases = (
+				577C5341266A51E80094E87F /* Sources */,
+				577C5342266A51E80094E87F /* Frameworks */,
+				577C5343266A51E80094E87F /* Resources */,
+				57F70214269C84310063C55A /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudLogin;
+			packageProductDependencies = (
+				5725CECF266E5B8900F7B5CB /* VisualEffects */,
+				57CBE58526A7264F004284BD /* FBSnapshotTestCase */,
+			);
+			productName = CloudLogin;
+			productReference = 577C5345266A51E80094E87F /* CloudLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57F4109D26A019B90065B7B8 /* CloudLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57F410A526A019B90065B7B8 /* Build configuration list for PBXNativeTarget "CloudLoginTests" */;
+			buildPhases = (
+				57F4109A26A019B90065B7B8 /* Sources */,
+				57F4109B26A019B90065B7B8 /* Frameworks */,
+				57F4109C26A019B90065B7B8 /* Resources */,
+				57CBE58426A725B3004284BD /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57F410A426A019B90065B7B8 /* PBXTargetDependency */,
+			);
+			name = CloudLoginTests;
+			packageProductDependencies = (
+				57CBE57C26A708F0004284BD /* SnapshotTesting */,
+				57CBE58126A725B3004284BD /* FBSnapshotTestCase */,
+			);
+			productName = CloudLoginTests;
+			productReference = 57F4109E26A019B90065B7B8 /* CloudLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		577C533D266A51E80094E87F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					577C5344266A51E80094E87F = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					57F4109D26A019B90065B7B8 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 577C5344266A51E80094E87F;
+					};
+				};
+			};
+			buildConfigurationList = 577C5340266A51E80094E87F /* Build configuration list for PBXProject "CloudLogin" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 577C533C266A51E80094E87F;
+			packageReferences = (
+				5725CECE266E5B8900F7B5CB /* XCRemoteSwiftPackageReference "VisualEffects" */,
+				57CBE57B26A708F0004284BD /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
+				57CBE58026A725B3004284BD /* XCRemoteSwiftPackageReference "ios-snapshot-test-case" */,
+			);
+			productRefGroup = 577C5346266A51E80094E87F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				577C5344266A51E80094E87F /* CloudLogin */,
+				57F4109D26A019B90065B7B8 /* CloudLoginTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		577C5343266A51E80094E87F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				577C5350266A51F00094E87F /* Preview Assets.xcassets in Resources */,
+				577C534D266A51F00094E87F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F4109C26A019B90065B7B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		577C5341266A51E80094E87F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F410AE26A5C8A90065B7B8 /* AccountContextSwitchView.swift in Sources */,
+				577C5349266A51E80094E87F /* CloudLoginApp.swift in Sources */,
+				BC846CF374FC82CB70B76F82 /* FlatLoginView.swift in Sources */,
+				57ED03652677AB5A00130A0A /* FlatLoginViewModel.swift in Sources */,
+				BC84642BA270CD7D4534E457 /* CardView.swift in Sources */,
+				57ED03692678FAA400130A0A /* Helpers.swift in Sources */,
+				BC8462B8FA3E011B7049E00E /* AppStyle.swift in Sources */,
+				BC8463D9596F98389CBF7E89 /* SignupScreenView.swift in Sources */,
+				57FC4A5E26711761005F2588 /* IconView.swift in Sources */,
+				BC8467B14F961303CFF3C05F /* PauseView.swift in Sources */,
+				57ED03672678B19900130A0A /* WhiteLineView.swift in Sources */,
+				BC846C0235B75DC7EDE0B7DD /* GradientButtonView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F4109A26A019B90065B7B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57F410B026A5D2A70065B7B8 /* AccountContextSwitchViewSnapshotTests.swift in Sources */,
+				57CBE57F26A71D0A004284BD /* SignUpScreeniOSSnapshotTests.swift in Sources */,
+				57F410AC26A07AE80065B7B8 /* UnitTestHelper.swift in Sources */,
+				57F410A126A019B90065B7B8 /* SignupScreenViewSnapshotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57F410A426A019B90065B7B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 577C5344266A51E80094E87F /* CloudLogin */;
+			targetProxy = 57F410A326A019B90065B7B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		577C5368266A51F00094E87F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		577C5369266A51F00094E87F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		577C536B266A51F00094E87F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CloudLogin/CloudLogin.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CloudLogin/Preview Content\"";
+				DEVELOPMENT_TEAM = THMZRMRZ9S;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CloudLogin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.infinityworks.UISnapshotTesting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		577C536C266A51F00094E87F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CloudLogin/CloudLogin.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CloudLogin/Preview Content\"";
+				DEVELOPMENT_TEAM = THMZRMRZ9S;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CloudLogin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.infinityworks.UISnapshotTesting;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		57F410A626A019B90065B7B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = THMZRMRZ9S;
+				INFOPLIST_FILE = CloudLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.infinityworks.CloudLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudLogin.app/CloudLogin";
+			};
+			name = Debug;
+		};
+		57F410A726A019B90065B7B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = THMZRMRZ9S;
+				INFOPLIST_FILE = CloudLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.infinityworks.CloudLoginTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudLogin.app/CloudLogin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		577C5340266A51E80094E87F /* Build configuration list for PBXProject "CloudLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				577C5368266A51F00094E87F /* Debug */,
+				577C5369266A51F00094E87F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		577C536A266A51F00094E87F /* Build configuration list for PBXNativeTarget "CloudLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				577C536B266A51F00094E87F /* Debug */,
+				577C536C266A51F00094E87F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57F410A526A019B90065B7B8 /* Build configuration list for PBXNativeTarget "CloudLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57F410A626A019B90065B7B8 /* Debug */,
+				57F410A726A019B90065B7B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5725CECE266E5B8900F7B5CB /* XCRemoteSwiftPackageReference "VisualEffects" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/VisualEffects.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.3;
+			};
+		};
+		57CBE57B26A708F0004284BD /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-snapshot-testing.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.9.0;
+			};
+		};
+		57CBE58026A725B3004284BD /* XCRemoteSwiftPackageReference "ios-snapshot-test-case" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alanzeino/ios-snapshot-test-case.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5725CECF266E5B8900F7B5CB /* VisualEffects */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5725CECE266E5B8900F7B5CB /* XCRemoteSwiftPackageReference "VisualEffects" */;
+			productName = VisualEffects;
+		};
+		57CBE57C26A708F0004284BD /* SnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 57CBE57B26A708F0004284BD /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = SnapshotTesting;
+		};
+		57CBE58126A725B3004284BD /* FBSnapshotTestCase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 57CBE58026A725B3004284BD /* XCRemoteSwiftPackageReference "ios-snapshot-test-case" */;
+			productName = FBSnapshotTestCase;
+		};
+		57CBE58526A7264F004284BD /* FBSnapshotTestCase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 57CBE58026A725B3004284BD /* XCRemoteSwiftPackageReference "ios-snapshot-test-case" */;
+			productName = FBSnapshotTestCase;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 577C533D266A51E80094E87F /* Project object */;
+}

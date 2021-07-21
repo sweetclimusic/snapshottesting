@@ -1,0 +1,34 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "FBSnapshotTestCase",
+        "repositoryURL": "https://github.com/alanzeino/ios-snapshot-test-case.git",
+        "state": {
+          "branch": null,
+          "revision": "c3189948974569421d867af5bedd8addf44330b0",
+          "version": "6.2.1"
+        }
+      },
+      {
+        "package": "SnapshotTesting",
+        "repositoryURL": "https://github.com/pointfreeco/swift-snapshot-testing.git",
+        "state": {
+          "branch": null,
+          "revision": "f8a9c997c3c1dab4e216a8ec9014e23144cbab37",
+          "version": "1.9.0"
+        }
+      },
+      {
+        "package": "VisualEffects",
+        "repositoryURL": "https://github.com/twostraws/VisualEffects.git",
+        "state": {
+          "branch": null,
+          "revision": "8ff7f90f9650d9db5774275d0b1f07ef642ecf4d",
+          "version": "1.0.3"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
